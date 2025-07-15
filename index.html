@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Workout & Nutrition Tracker</h1>
+
+    <section>
+      <h2>Add Workout</h2>
+      <input type="text" id="workout-type" placeholder="Type (e.g. Running)">
+      <input type="number" id="workout-duration" placeholder="Duration (min)">
+      <input type="number" id="workout-calories" placeholder="Calories Burned">
+      <button onclick="addWorkout()">Add Workout</button>
+    </section>
+
+    <section>
+      <h2>Add Food</h2>
+      <input type="text" id="food-item" placeholder="Food Item">
+      <input type="number" id="food-calories" placeholder="Calories Consumed">
+      <button onclick="addFood()">Add Food</button>
+    </section>
+
+    <section>
+      <h2>Workout Log</h2>
+      <ul id="workout-log"></ul>
+    </section>
+
+    <section>
+      <h2>Food Log</h2>
+      <ul id="food-log"></ul>
+    </section>
+  </div>
+
+  
+</body>
+</html>
